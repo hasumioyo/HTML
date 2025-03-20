@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(209, 210, 209);
+}
+.main1{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    width: 800px;
+    margin: auto;
+    padding: 90px;
+}
+.weatheragenda{
+    display: flex;
+    /*justify-content: space-between ;*/
+    gap: 50px;
+}
+.linksfilesmain{
+    display: flex;
+    gap: 50px;
+}
+#weather1{
+    background-color: rgb(219, 244, 251);
+    width: 300px;
+}
+#todayupcoming1{
+    background-color: rgb(219, 244, 251);
+    width: 300px;
+}
+#linksfiles1{
+    background-color: rgb(219, 244, 251);
+    width: 300px;
+}
+#agenda1{
+    background-color: rgb(219, 244, 251);
+    width: 370px;
+}
+#schooltasks1{
+    background-color: rgb(219, 244, 251);
+    width: 370px;
+}
+#personaltasks1{
+    background-color: rgb(219, 244, 251);
+    width: 370px;
+}
+#shoppinglist1{
+    background-color: rgb(219, 244, 251);
+    width: 370px;
+}
