@@ -15,18 +15,50 @@
             <div class="weatheragenda">
                 <section id="weather">
                     <h3 id="weather1">Weather</h3>
+                    <div id="weatherpart">
+                        <p>WEATHER</p>
+                        <p style="font-size: 50px; margin-top: -5px;">☀️</p>
+                        <div id="degree1", style="margin-top: -10px;">
+                            <p style="font-size: larger;">63 °F</p>
+                            <p style="margin-top: -15px;">Clear Sky</p>
+                        </div>
+                    </div>
+                    <div id="weatherpart2">
+                        <div id="days1">
+                            <p>Wed</p>
+                            <p>Thu</p>
+                        </div>
+                        <div id="weathericon1">
+                            <p style="font-size: 40px; margin-top: -10px;">🌤️</p>
+                            <p style="font-size: 40px; margin-top: -10px;">⛅</p>
+                        </div>
+                        <div id="degree2">
+                            <div id="mini1">
+                                <p style="font-size: 20px;">69 °F</p>
+                                <p style="margin-top: -15px;">48 °F</p>
+                            </div>
+                            <div id="mini2">
+                                <p style="font-size: 20px;">64 °F</p>
+                                <p style="margin-top: -15px;">47 °F</p>
+                            </div>
+                        </div>
+    
+                    </div> 
                 </section>
+
                 <section id="agenda">
                     <h3 id="agenda1">Agenda</h3>
-                    <table border="1">
+                    <table border="1", class="icon1">
                         <tr>
                             <th>Today</th>
                             <th>Back</th>
                             <th>Next</th>
                         </tr>
                     </table>
-                    <h3>09/30/2020 - 10/30/2020</h3>
-                    <table border="1">
+                    <h3 id="dates">
+                        09/30/2020 - 10/30/2020
+                    </h3>
+                    <table border="1", class="icon2">
                         <tr>
                             <th>Month</th>
                             <th>Week</th>
@@ -35,42 +67,45 @@
                         </tr>
                     </table>
                     <br />
-                    <table border="1" he>
-                        <tr>
-                            <th>Date</th>
-                            <th>Time</th>
-                            <th>Event</th>
-                        </tr>
-                        <tr>
-                            <td rowspan="3">Wed Sep 30</td>
-                            <td>12:00 pm - 1:00 pm</td>
-                            <td>Case Conference</td>
-                        </tr>
-                        <tr>
-                            <td>1:15 pm - 2.35 pm</td>
-                            <td>Weekly class meeting</td>
-                        </tr>
-                        <tr>
-                            <td>2:45 pm - 3:05 pm</td>
-                            <td>Advising Meeting</td>
-                        </tr>
-                        <tr>
-                            <td>Thu Oct 1</td>
-                            <td>10:00 am - 12:00 pm</td>
-                            <td>Comps Proposal</td>
-                        </tr>
-                        <tr>
-                            <td>Fri Oct 2</td>
-                            <td>11:00 am - 11:30 am</td>
-                            <td>Supervision</td>
-                        </tr>
-                        <tr>
-                            <td>Mon Oct 05</td>
-                            <td>9:00 am - 11:45 am</td>
-                            <td>Social Gathering</td>
-                        </tr>
-        
-                    </table>
+                    <div class="scrolldates">
+                        
+                        <table border="1", class="list1">
+                            <tr>
+                                <th>Date</th>
+                                <th>Time</th>
+                                <th>Event</th>
+                            </tr>
+                            <tr>
+                                <td rowspan="3">Wed Sep 30</td>
+                                <td id="one">12:00 pm - 1:00 pm</td>
+                                <td>Case Conference</td>
+                            </tr>
+                            <tr>
+                                <td id="one">1:15 pm - 2.35 pm</td>
+                                <td>Weekly class meeting</td>
+                            </tr>
+                            <tr>
+                                <td id="one">2:45 pm - 3:05 pm</td>
+                                <td>Advising Meeting</td>
+                            </tr>
+                            <tr>
+                                <td>Thu Oct 1</td>
+                                <td id="one">10:00 am - 12:00 pm</td>
+                                <td>Comps Proposal</td>
+                            </tr>
+                            <tr>
+                                <td>Fri Oct 2</td>
+                                <td id="one">11:00 am - 11:30 am</td>
+                                <td>Supervision</td>
+                            </tr>
+                            <tr>
+                                <td>Mon Oct 05</td>
+                                <td id="one">9:00 am - 11:45 am</td>
+                                <td>Social Gathering</td>
+                            </tr>
+                        </table>
+                    </div>
+                    
                 </section>
             </div>
         
