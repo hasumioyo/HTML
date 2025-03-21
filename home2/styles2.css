@@ -1,15 +1,23 @@
 body{
     background-color: rgb(209, 210, 209);
     font-family: sans-serif;
+    padding: 90px;
 }
 
 .main1{
     background-color: rgb(255, 255, 255);
-    border: 1px solid rgb(255, 255, 255);
+    background-image: url(hillsnew.jpg);
+    background-size: 980px;
+    border-top: 100px solid transparent;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-position-y: -450px;
+
     width: 800px;
     margin: auto;
     padding: 90px;
 }
+
 
 .icon1{
     width: 50%;
@@ -67,8 +75,24 @@ body{
     padding: 5px;
     overflow: overlay ;
 }
-#todayupcoming{
+.todayupcoming{
     margin-top: -150px;
+}
+.calender1{
+    display: flex;
+    gap: 10px;
+}
+.c1{
+    display: flex;
+    gap: 20px;
+}
+.calender2{
+    display: flex;
+    gap: 10px;
+}
+.c2{
+    display: flex;
+    gap: 5px;
 }
 
 .weatheragenda{
@@ -113,43 +137,49 @@ body{
 }
 
 #weather1{
-    background-color: rgb(219, 244, 251);
+    background-color: rgb(192, 212, 168);
     width: 300px;
     padding: 5px;
 }
 
 #todayupcoming1{
-    background-color: rgb(219, 244, 251);
+    background-color: rgb(192, 212, 168);
     width: 300px;
     padding: 5px;
 }
 
 #linksfiles1{
-    background-color: rgb(219, 244, 251);
+    background-color: rgb(192, 212, 168);
     width: 300px;
     padding: 5px;
 }
 
 #agenda1{
-    background-color: rgb(219, 244, 251);
+    background-color: rgb(192, 212, 168);
     width: 400px;
     padding: 5px;
 }
 
-#schooltasks1{
-    background-color: rgb(219, 244, 251);
-    width: 400px;
-    padding: 5px;
+.w1{
+    #schooltasks1{
+        background-color: rgb(192, 212, 168);
+        width: 400px;
+        padding: 5px;
+    }
+    
+    #personaltasks1{
+        background-color: rgb(192, 212, 168);
+        width: 400px;
+        padding: 5px;
+        margin-top: -10px;
+    }
+    
+    #shoppinglist1{
+        background-color: rgb(192, 212, 168);
+        width: 400px;
+        padding: 5px;
+        margin-top: -10px;
+    }
+    
 }
 
-#personaltasks1{
-    background-color: rgb(219, 244, 251);
-    width: 400px;
-    padding: 5px;
-}
-
-#shoppinglist1{
-    background-color: rgb(219, 244, 251);
-    width: 400px;
-    padding: 5px;
-}
