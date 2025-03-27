@@ -4,7 +4,7 @@ body{
     border: 3px solid;
     display: flow-  root;
 }
-h1{
+#ones{
     text-shadow: 3px 2px 5px blue;
     border-style: solid;
     border-width: 3px;
@@ -86,4 +86,79 @@ h1{
     position: relative;
     top: -100px;
     left: -100px;
+}
+body{
+    background-image: url(background1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#container1{
+    border: 2px solid;
+}
+#container1 p{ /* space = descendant, > = child, ~ = general sibling, + = adjacent sibling */
+    background-color: chartreuse;
+}
+#container2 > #con2{
+    background-color: aqua;
+}
+a:link{
+    color: rgb(115, 75, 152);
+}
+a:hover{
+    color: rgb(147, 130, 163);
+    font-size: 1.1em;
+}
+a:active{
+    color: blue;
+    font-size: 1.1em;
+}
+a:visited{
+    color: brown;
+}
+li:hover{
+    background-color: rgb(98, 149, 150);
+}
+#n1:not(:hover){
+    background-color: rgb(202, 177, 168);
+}
+#n1:nth-child(3){ /* odd, even,..n */
+    background-color: rgb(40, 186, 101);
+}
+#greeting p{
+    background-color: rgb(182, 113, 247);
+    padding: 10px;
+    display: none;
+}
+#greeting:hover p{
+    display: block;
+}
+#hellos::first-letter{
+    font-size: 2em;
+    font-style: italic;
+}
+#lorem::first-line{
+    background-color: darksalmon;
+}
+#lorem::selection{
+    color: chocolate;
+    background-color: rgb(84, 84, 84);
+}
+#fruit li::before{
+    content: "✅";
+}
+#apple::after{
+    content: "🍎";
+}
+#orange::after{
+    content: "🍊";
+}
+#banana::after{
+    content: "🍌";
+}
+#fruit li::marker{
+    content: "＼(ﾟｰﾟ＼)";
+    color: rgb(11, 83, 184);
+    font-size: 1.2em;
 }
