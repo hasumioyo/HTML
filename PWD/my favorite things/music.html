@@ -15,9 +15,10 @@
         <div class="mainbody">
             <aside class="listitems">
                 <h2>List</h2>
-                    <ul id="list1">
+                <nav>
+                    <ul class="list1">
                         <style>
-                            li{
+                            #lis{
                                 list-style: none;
                                 background-repeat: no-repeat;
                                 background-size: 15px;
@@ -28,19 +29,39 @@
                                 
                             }
                         </style>
-                        <li style="background-image: url(paperone.png);"><a href="food.html"></a>Food</li>
-                        <li style="background-image: url(paperone.png);"><a href="music.html" class="active"></a>Music</li>
-                        <li style="background-image: url(paperone.png);"><a href="books.html"></a>Books</li>
-                        <li style="background-image: url(paperone.png);"><a href="animals.html"></a>Animals</li>
-                        <li style="background-image: url(paperone.png);"><a href="movies.html"></a>Movies</li>
+                        <li id="lis" style="background-image: url(paperone.png);"><a href="food.html">Food</a></li>
+                        <li id="lis" style="background-image: url(paperone.png);"><a href="music.html">Music</a></li>
+                        <li id="lis" style="background-image: url(paperone.png);"><a href="books.html">Books</a></li>
+                        <li id="lis" style="background-image: url(paperone.png);"><a href="animals.html">Animals</a></li>
+                        <li id="lis" style="background-image: url(paperone.png);"><a href="movies.html">Movies</a></li>
                      </ul>   
+                </nav>
                  
             </aside>
             <section id="descthings">
-                <h2>The Secret Story of The Swan</h2>
-                <p>Click one of the list</p>
+                <h3 style="margin-top: 25px;">The Secret Story of The Swan</h3>
+                <div id="para">
+                    <img src="izone_oneric.jpg" style="height: 150px;">
+                    <div id="parag" style="font-size: 10px;">
+                        <p>
+                            IZONE was a well-known girl group from South Korea and Japan that came together through the Mnet survival program Produce 48 in 2018. The group had 12 members, with 9 hailing from South Korea and 3 from Japan. They made their debut in October 2018 with their mini-album COLORIZ, featuring the popular track "La Vie en Rose."  IZONE released several successful tracks, including "Fiesta," "Violeta," and "Panorama," before disbanding in April 2021 due to contract limitations. 
+                            <ul id="reasons">
+                                <li>IZ*ONE was known for their elegant, synchronized performances and strong discography</li>
+                                <li>Iconic</li>
+                                <li>"The Secret Story of The Swan" represents their beautiful and dreamy concepts-uses the concept of swan to symbolize beauty and transformation. This theme also tells us to let go of self-doubt and fully accept who you really are.</li>
+                            </ul>
+                        </p>
+                    </div>
+                
+                </div>
+                <div id="spotify1">
+                    <h4>Spotify</h4>
+                    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/7G6WuVZuTbF6JcnA9wOvsD?utm_source=generator&theme=0" width="50%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                </div>
+                
             </section>
         </div>
         
 
     </body>
+</html>

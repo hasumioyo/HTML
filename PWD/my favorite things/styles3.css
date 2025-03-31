@@ -9,7 +9,7 @@ body{
     border-top: 20px solid rgb(205, 167, 218);
     width: 800px;
     margin: auto;
-    height: 400px;
+    height: 500px;
 }
 
 .mainbody .listitems{
@@ -17,14 +17,18 @@ body{
     float: left;
     padding: 10px;
     padding-left: 30px;
+    border-right: 1px solid black;
     width: 200px;
-
 }
 
 .listitems .list1{
     margin-left: -15px;
 }
-.listitems .list1 a.active{
+.listitems .list1 #lis a{
+    color: black;
+    text-decoration: none;
+}
+.listitems .list1 #lis.a.active{
     background-color: rgb(207, 155, 255);
     font-weight: bold;
     border-radius: 5px;
@@ -36,6 +40,19 @@ body{
     padding-left: 50px;
     width: 1000px;
 }
-li:hover{
+#lis:hover{
+    text-decoration: underline;
     background-color: rgb(205, 167, 218);
+}
+
+/* music */
+#descthings #para{
+    display: flex;
+}
+#descthings #para #parag{
+    text-align: justify;
+    margin-left: 25px;
+}
+#descthings #para #parag #reasons{
+    margin-left: -20px;
 }
