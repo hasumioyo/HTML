@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 .pagination{
     text-align: center;
 
@@ -16,4 +19,179 @@
 .pagination a:hover:not(.active){
     background-color: beige;
     border-radius: 5px;
+}
+.dropdown button{
+    background-color: aquamarine;
+    color: blue;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+.dropdown{
+    display: inline-block;
+}
+.dropdown #res{
+    display: block;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 10px 15px;
+}
+.dropdown .content{
+    display: none;
+    position: absolute;
+    background-color: rgb(161, 214, 196);
+    min-width: 100px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.525);
+}
+.dropdown:hover .content{
+    display: block;
+}
+.dropdown:hover button{
+    background-color: azure ;
+}
+.dropdown #res:hover{
+    background-color: aqua;
+}
+main{
+    margin: 20px;
+}
+#hello1{
+    text-align: center;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: rgb(60, 60, 60);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar #res1{
+    color: aliceblue;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar #res1:hover{
+    background-color: black;
+}
+.navbar li{
+    float: left;
+}
+header{
+    background-color: rgb(164, 164, 164);
+    text-align: center;
+    padding: 25px;
+}
+.navbar1{
+    background-color: black;
+    height: 50px;
+}
+aside{
+    width: 20%;
+    float: left;
+    padding: 10px;
+}
+section{
+    width: 40%;
+    float: left;
+    padding: 10px;
+}
+article{
+    width: 40%;
+    float: left;
+    padding: 10px;
+}
+footer{
+    display: block;
+    clear: both;
+    background-color: rgb(164, 164, 164);
+    text-align: center;
+    padding: 25px;
+}
+@media screen and (max-width:600px) {
+    aside, section, article{
+        width: 100%;
+    }
+}
+.gallery{
+    display: inline-block;
+    border: 1px solid grey;
+    margin: 5px;
+    width: 200px;
+}
+.gallery .description{
+    padding: 10px;
+    text-align: center;
+}
+.gallery:hover{
+    border: 1px solid greenyellow;
+}
+.gallery img{
+    width: 100%;
+    height: auto;
+}
+.iconss{
+    text-align: center;
+}
+.iconss a{
+    text-decoration: none;
+    margin-right: 20px;
+}
+.fa-solid.fa-house.fa-2xl{
+    color: rgb(111, 128, 144);
+}
+.fa-solid.fa-house.fa-2xl:hover{
+    color: rgb(181, 206, 230);
+}
+.fa-brands.fa-twitter.fa-2xl{
+    color: rgb(0, 225, 255) ;
+}
+.fa-brands.fa-twitter.fa-2xl:hover{
+    color: rgb(190, 245, 252);
+}
+.fa-brands.fa-youtube.fa-2xl{
+    color: rgb(255, 14, 62);
+}
+.fa-brands.fa-youtube.fa-2xl:hover{
+    color: rgb(255, 123, 149);
+}
+.fa-brands.fa-tiktok.fa-2xl{
+    color: black;
+}
+.fa-brands.fa-tiktok.fa-2xl:hover{
+    color: rgb(149, 149, 149);
+}
+.contains1{
+    display: flex;
+    /*flex-direction: row-reverse;*/
+    border: 10px solid black;
+    height: 90vh;
+    /*justify-content: space-evenly;*/
+    /*align-items: flex-end;*/
+    /*flex-wrap: wrap;
+    align-content: flex-start;
+    column-gap: 3em;
+    row-gap: 2em;*/
+}
+.box{
+    width: 150px;
+    height: 150px;
+    font-size: 8em;
+    text-align: center;
+    border-radius: 15px;
+}
+#box1{
+    background-color: rgb(255, 0, 0);
+    align-self: center;
+    order: 1;
+}
+#box2{
+    background-color: rgb(255, 255, 0);
+}
+#box3{
+    background-color: rgb(150, 250, 0);
+}
+#box4{
+    background-color: rgb(0, 227, 252);
 }
