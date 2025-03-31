@@ -1,0 +1,41 @@
+body{
+    padding: 90px;
+    background-color: rgb(120, 38, 38);
+    font-family: sans-serif;
+}
+
+.mainbody{
+    display: flex;
+    border-top: 20px solid rgb(205, 167, 218);
+    width: 800px;
+    margin: auto;
+    height: 400px;
+}
+
+.mainbody .listitems{
+    background-color: rgb(255, 255, 255);
+    float: left;
+    padding: 10px;
+    padding-left: 30px;
+    width: 200px;
+
+}
+
+.listitems .list1{
+    margin-left: -15px;
+}
+.listitems .list1 a.active{
+    background-color: rgb(207, 155, 255);
+    font-weight: bold;
+    border-radius: 5px;
+}
+.mainbody #descthings{
+    background-color: rgb(255, 255, 255);
+    float: left;
+    padding: 10px;
+    padding-left: 50px;
+    width: 1000px;
+}
+li:hover{
+    background-color: rgb(205, 167, 218);
+}
